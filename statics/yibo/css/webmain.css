@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url(menu_view.css);
+@import url(component.css);
+*{padding: 0; margin: 0; box-sizing:border-box;}
+body, input, select, textarea{font-family:'Microsoft YaHei', '微软雅黑';}
+textarea{resize: none;}
+ul,li{list-style: none}
+body{overflow-y: scroll}
+body{color: #555; font-size: 14px;}
+body a{color: #555; text-decoration: none;}
+body a:hover{color: #f13a3a; text-decoration: none;}
+#design .hide_tip{display:none}
+/*web_main_edu*/
+#Web_Main_Head .edu_style_model{background:none; display: none;}
+.box_base{z-index: 4;}
+.modulebox > .view:before{display: none;}
+
+/*文章收藏及评论*/
+#news_show_collection{ position:relative;padding-right: 25px;}
+#news_collection{ font-size: 22px; position: absolute;top:6px;right:0px;cursor: pointer;}
+#news_collection.on{color: #f23259}
+
+.article_comment_title{border-bottom:1px solid #ececec;margin-bottom: 30px; font-size: 16px; clear: both}
+.article_comment_title span{ display:inline-block;border-bottom-style:solid;border-bottom-width:4px;border-bottom-color: #f23259; line-height: 30px;}
+.article_comment_user{height: 38px; clear: both; line-height: 38px; position: relative; padding-left: 50px;margin-bottom: 20px;}
+.article_comment_user span{position: absolute;left:0; display: block;width:37px;height:37px; border-radius: 100%;background: #ccc; display: table-caption; vertical-align: middle; overflow: hidden}
+.article_comment_user span img{ max-width: 37px;max-height: 37px;margin:0 auto;}
+.article_comment_user date{position: absolute;right:0;}
+.article_comment_user b{font-weight: normal;}
+.article_comment_li{border-bottom:1px solid #ececec;margin-bottom: 30px;padding-bottom:10px;}
+.article_comment_li:last-child{border:none;}
+
+.article_comment_content{border:1px solid #ececec;width:100%;height:150px;}
+.article_comment_content textarea{ resize: none; outline: 0;border:none; padding:10px; width:calc(100% - 20px); height:130px;}
+.article_comment_content p{margin:0; width:100%; height:148px; text-align: center;line-height: 148px; font-size: 18px; background: #fafafa}
+
+.article_comment_reply{color: #f23259;}
+.article_comment_reply .article_comment_replyAdmin{margin:15px 0 5px}
+.article_comment_submit{border-radius:10px;padding:10px 30px;background: #ededed;color: #333; cursor: pointer;float:right;margin: 20px 0;}

@@ -1,0 +1,25 @@
+#Web_Main_Head {background-color:#fff;}
+ #Web_Main_Head {background-image:url("http://koss.iyong.com/swift/v1/iyong_public/iyong_2631626088743488/image/20180428/1524894213744022585.jpg");}
+ #Web_Main_Head {background-repeat:no-repeat;background-position:top;}
+ #Web_Main_Head {background-attachment:scroll;}
+ #Web_Main_Head {min-height:135px;}
+ #Web_Main_Footer {background-color:#404040;}
+ #Web_Main_Footer {background-repeat:repeat;background-position:center;}
+ #Web_Main_Footer .box_web_main {font-size:12px;}
+ #Web_Main_Footer .box_web_main {line-height:1.8;}
+ #Web_Main_Footer .box_web_main {color:#ffffff;}
+ #Web_Main_Footer .box_web_main .copyNav_li > a{font-size:14px;}
+ #Web_Main_Footer .box_web_main .copyNav_li > a{line-height:1.8;}
+ #Web_Main_Footer .menuStyle .box_web_main > div{text-align:left;}
+ #Web_Main_Footer .box_web_main .copyNav_li > a{color:#ffffff;}
+ #Web_Main_Footer .box_web_main .copyNav_li > a:hover{color:#ffb012;}
+ #Web_Main_Footer .box_web_main .copyNav_li{width:150px;}
+ #Web_Main_Footer .box_web_main .copyNav_li ul > li > a{font-size:12px;}
+ #Web_Main_Footer .box_web_main .copyNav_li ul > li > a{line-height:2;}
+ #Web_Main_Footer .box_web_main .copyNav_li ul > li > a{color:#ebebeb;}
+ #Web_Main_Footer .box_web_main .copyNav_li ul > li > a:hover{color:#ffbc36;}
+ .box_footer .copyrightStyle {border-top-width:1px;}
+ .box_footer .copyrightStyle {border-top-color:#6e6e6e;}
+ .box_footer .copyrightStyle {border-top-style:dashed;}
+ .box_footer .copyrightStyle .box_web_main {padding-top:5px;padding-bottom:5px;}
+ #Web_Main_Footer .sectionheight{margin-left:0px;margin-top:10px;margin-right:0px;margin-bottom:30px;}

@@ -1,0 +1,38 @@
+/*通用样式*/
+.no-padding{padding: 0 !important;}
+.no-margin{margin: 0 !important;}
+.clear,.after_clear:after{height: 0;clear: both;display: block;overflow: hidden;}
+.after_clear:after{content: '';}
+table.ue_table{width:100%; table-layout:fixed;}
+table.ue_table td,table.ue_table th{ padding: 5px 10px;}
+.hasSub:before,.hasSub:after{content: ''; height: 0;clear: both;display: block;overflow: hidden;}
+
+/*提示框*/
+#webupload_tip{ position: fixed; z-index: 9999;  top:20%; margin-top:-25px; left:0; width: 100%; height: 50px; text-align: center; display:none;}
+#webupload_tip .webupload_body{ position:relative; background: #f8f0cf; color:#c10000; border: 1px solid #ffecb5; border-radius: 4px;
+ white-space: nowrap; height: 46px; line-height: 36px; font-size: 14px; margin-top:-23px; text-align: center;
+box-shadow: 0 1px 4px #333; padding: 5px 30px 5px 15px; display: -moz-inline-stack; display:inline-block; *display:inline; *zoom:1;}
+#webupload_tip .webupload_body span.tclose{ position: absolute; right: 7px; cursor: pointer; top: 15px; background: url(../images/close.png) no-repeat; width: 15px; height: 15px; background-size: cover;}
+.file-tips-word{ margin-right:10px; }
+
+/*分页按钮*/
+.page_style_dh{ text-align: center;}
+#design .pagination{display: inline-block; padding:15px 0;margin: 0;border-radius:4px;}
+#design .pagination >li{display: inline;}
+#design .pagination > li > a, .pagination > li > span{ position: relative; padding: 6px 12px; line-height:1.42857143; text-decoration:none;background-color:#fff; border:1px solid #ddd; margin-left: -1px;}
+#design .pagination > li > a,#design  .pagination > li > span{ color: #858585;}
+#design .pagination > li > a:hover,#design .pagination > li > a.Act,#design .pagination > li > a:focus{ z-index:9; background: #eee; color: #333;}
+.pagination > li:first-child > a, .pagination > li:first-child > span{margin-left:0;border-top-left-radius:4px;border-bottom-left-radius:4px;}
+.pagination > li:last-child > a, .pagination > li:last-child > span{border-top-right-radius:4px;border-bottom-right-radius:4px;}
+
+/*IE低版本提示*/
+#browser_ie{background-color: #f6f6b4; display: block; height: 85px; color: #000; font-size: 15px;box-sizing: content-box;}
+#browser_ie .brower_info{margin: 0px auto; width: 800px; padding-top: 17px}
+#browser_ie .brower_info:after{clear: both; content: ""; display: block; overflow: hidden; height: 0;}
+#browser_ie .brower_info .notice_info{position: relative; margin-top: 5px; float: left}
+#browser_ie .brower_info .notice_info p{text-align: left; line-height: 25px; width: 360px; display: inline-block}
+#browser_ie .browser_list{position: relative; float: left}
+#browser_ie .browser_list img{width: 40px; height: 40px}
+#browser_ie .browser_list span{text-align: center; width: 80px; display: inline-block}
+
+
