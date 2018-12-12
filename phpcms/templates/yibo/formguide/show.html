@@ -26,7 +26,11 @@
 					<div class="style_view" id="style_view_com_176">
 						<style> </style>
 					</div>
-					<a class="bannerDiv " style="background-image: url('http://koss.iyong.com/swift/v1/iyong_public/iyong_2631626088743488/image/20180505/1525481907418078802.jpg');" href="javascript:void(0)" target=""></a>
+					{pc:get sql="select image from yibo_category where catid=72" cache="3600" page="$page" return="data_ext"}
+					{loop $data_ext $key $val}
+					<a class="bannerDiv " style="background-image: url('{$val[image]}');" href="javascript:void(0)" target=""></a>
+					{/loop}
+					{/pc}
 				</div>
 				<style id="com_176_style">#com_176.modulebox{z-index: 1; position: relative; height: 421px;}#banner_com_176{height: 421px;}</style>
 			</div>
