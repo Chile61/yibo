@@ -1,5 +1,5 @@
 {template "content","top"}
-{php var_dump($_GET['type'])}
+{php $type = isset($_GET['type']) ? (int)$_GET['type'] : 0}
 <div class="content-layout form-horizontal" id="design" lab="0" initlab="0">
 	<div class="design group draggable_area design_main" id="web_design_main">
 		<div id="public_set">
@@ -284,3 +284,11 @@
 </div>
 </body>
 </html>
+<script type="text/javascript">
+$(document).ready(function () {
+	var type = {$type};
+	if (type == 1) {
+        $('#ly_type').val('售后咨询');
+	}
+});
+</script>
