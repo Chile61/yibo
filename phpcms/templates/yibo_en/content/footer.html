@@ -3,9 +3,9 @@
         <div class="view" id="simpleText_com_170" style="width: 302px; height: 112px; min-height: 0px;" data-bwidth="302" data-bheight="112">
             <div class="">
                 <div>
-                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">{$configs['company_name']}</span></p>
-                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">厂址：{$configs['address']}</span></p>
-                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">电 &nbsp; &nbsp;话：{$configs['phone']}</span></p>
+                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">{$configs['company_name_en']}</span></p>
+                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">Address：{$configs['address_en']}</span></p>
+                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">Telephone：{$configs['phone']}</span></p>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
                             <div class="sectionheight copyNavStyle1">
                                 <div class="copyNav_li"><a href="javascript:void(0)" >About us</a>
                                     <ul>
-                                        {pc:content action="category" catid="48" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="76" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
@@ -130,7 +130,7 @@
                                 </div>
                                 <div class="copyNav_li"><a href="javascript:void(0)" >Product</a>
                                     <ul>
-                                        {pc:content action="category" catid="61" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="80" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="copyNav_li"><a href="javascript:void(0)" >Technique Center</a>
                                     <ul>
-                                        {pc:content action="category" catid="58" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="86" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
@@ -150,7 +150,7 @@
                                 </div>
                                 <div class="copyNav_li"><a href="javascript:void(0)" >Contact us</a>
                                     <ul>
-                                        {pc:content action="category" catid="72" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="99" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         {if $r[catid]!=73}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
