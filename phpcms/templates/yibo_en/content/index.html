@@ -294,10 +294,10 @@
                                                         </script>
                                                         <style id="com_126_style">#com_126{width: 1898px; height: 34px; position: absolute; left: -355.484px; top: 50.9883px; z-index: 9;}#picture_com_126{width: 1898px; height: 34px;}</style>
                                                     </div>
-                                                    {pc:get sql="SELECT c.thumb,cd.content,cd.company_image FROM yibo_about_cn c LEFT JOIN yibo_about_cn_data cd ON c.id = cd.id WHERE c.id = 1" cache="3600" page="$page" return="data_ext"}
+                                                    {pc:get sql="SELECT c.thumb,cd.content,cd.company_image FROM yibo_aboutus_en c LEFT JOIN yibo_aboutus_en_data cd ON c.id = cd.id WHERE c.id = 1" cache="3600" page="$page" return="data_ext"}
                                                     {loop $data_ext $key $val}
                                                     {php $aboutus_thumb = $val['thumb']}
-                                                    {php $aboutus_content = str_cut(strip_tags($val['content']), 600, '...')}
+                                                    {php $aboutus_content = str_cut(strip_tags($val['content']), 100, '...')}
                                                     {php $au_images=json_decode($val['company_image'], true)}
                                                     {/loop}
                                                     {/pc}
