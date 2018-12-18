@@ -125,7 +125,7 @@ class site extends admin {
 					}
 				} 
 				
-				if (!empty($domain) && !preg_match('/http:\/\/(.+)\/$/i', $domain)) {
+				if (!empty($domain) && !preg_match('/[http|https]:\/\/(.+)\/$/i', $domain)) {
 					showmessage(L('site_domain').L('site_domain_ex2'));
 				}
 				if (!empty($domain) && $data['domain'] != $domain && $this->db->get_one(array('domain'=>$domain), 'siteid')) {
