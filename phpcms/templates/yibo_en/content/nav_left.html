@@ -64,8 +64,9 @@
                 <ul class="navigationList model1  clearfix" id="navList_com_215">
                     {pc:content action="category" catid="$CATEGORYS[$CAT[parentid]][catid]" num="25" siteid="$siteid" order="listorder ASC"}
                     {loop $data $r}
+                    {php $url=str_replace('/html/', '/html/en/html/', $r[url])}
                     <li class="sec ">
-                        <a href="{$r[url]}" class="{if $r[catid] == $catid}on{else}sp{/if}" ><span>{$r[catname]}</span></a>
+                        <a href="{$url}" class="{if $r[catid] == $catid}on{else}sp{/if}" ><span>{$r[catname]}</span></a>
                     </li>
                     {/loop}
                     {/pc}
