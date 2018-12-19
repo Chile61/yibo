@@ -80,7 +80,7 @@
 				<div class="J_localerPanel localerPanel_1">
 					<ul class="localerList J_localerList">
 						<li class="localerItem">
-							<div class="localerItemContent languageCn"><a href="/"> <span class="icon language_Icon_cn">&nbsp;</span> <span class="text" title="中文">中文</span> </a> <span class="arrow">&nbsp;</span> </div>
+							<div class="localerItemContent languageCn"><a href="{siteurl(1)}"> <span class="icon language_Icon_cn">&nbsp;</span> <span class="text" title="中文">中文</span> </a> <span class="arrow">&nbsp;</span> </div>
 						</li>
 						<div class="delimiter">/</div>
 						<li class="localerItem">
@@ -178,7 +178,7 @@
 											{pc:content action="category" catid="$r[catid]" num="25" siteid="$siteid" order="listorder ASC" return="data2"}
 											{loop $data2 $r2}
 											<li>
-												<a href="{$r2[url]}" >{$r2[catname]}</a>
+												<a href="{php str_replace('/html/', '/html/en/html/', $r2[url])}" >{$r2[catname]}</a>
 											</li>
 											{/loop}
 											{/pc}
