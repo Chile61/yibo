@@ -177,8 +177,9 @@
 										<ul class="menu_col_er" style=";">
 											{pc:content action="category" catid="$r[catid]" num="25" siteid="$siteid" order="listorder ASC" return="data2"}
 											{loop $data2 $r2}
+											{php $url=str_replace('/html/', '/html/en/html/', $r2[url])}
 											<li>
-												<a href="{php str_replace('/html/', '/html/en/html/', $r2[url])}" >{$r2[catname]}</a>
+												<a href="{$url}" >{$r2[catname]}</a>
 											</li>
 											{/loop}
 											{/pc}
