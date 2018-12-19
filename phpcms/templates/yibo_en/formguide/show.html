@@ -120,10 +120,11 @@
 
 
 																<ul class="navigationList model1  clearfix" id="navList_com_280">
-																	{pc:content action="category" catid="72" num="25" siteid="$siteid" order="listorder ASC"}
+																	{pc:content action="category" catid="99" num="25" siteid="$siteid" order="listorder ASC"}
 																	{loop $data $r}
+																	{php $url=str_replace('/html/', '/html/en/html/', $r[url])}
 																	<li class="sec ">
-																		<a href="{$r[url]}" class="{if $r[catid] == 73}on{else}sp{/if}" ><span>{$r[catname]}</span></a>
+																		<a href="{$url}" class="{if $r[catid] == 100}on{else}sp{/if}" ><span>{$r[catname]}</span></a>
 																	</li>
 																	{/loop}
 																	{/pc}
