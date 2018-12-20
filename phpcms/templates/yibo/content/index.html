@@ -609,7 +609,6 @@
                                                     {php $aaa=array(53=>array('w' => 215, 'h' => 254),54=>array('w' => 213, 'h' => 254),55=>array('w' => 213, 'h' => 253),56=>array('w' => 214, 'h' => 253))}
                                                     {pc:content action="category" catid="52" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
-                                                    {php //if $r[catid]!=57}
                                                     <div class="modulebox box_picture textFloat" id="com_{$r[catid]}_pic">
                                                         <div class="view" id="picture_com_{$r[catid]}" style="width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px;" data-bwidth="{$aaa[$r[catid]]['w']}" data-bheight="{$aaa[$r[catid]]['h']}">
                                                             <div class="has_wow animated fadeInUp box_wow" style="width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px; visibility: hidden; animation-duration: 1s; animation-delay: 0s; animation-name: none;" data-wow-duration="1.0s" data-wow-delay="0.0s">
@@ -624,13 +623,11 @@
                                                         </script>
                                                         <style id="com_{$r[catid]}_style">#com_{$r[catid]}_pic{width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px; position: absolute; left: {$positons[$r[catid]]['left']}px; top: {$positons[$r[catid]]['top']}px; z-index: 9;}#picture_com_{$r[catid]}{width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px;}</style>
                                                     </div>
-                                                    {php //if}
                                                     {/loop}
                                                     {/pc}
                                                     {php $positons=array(53=>array('left' => 70.5, 'top' => '334'),54=>array('left' => 324.5, 'top' => 334),55=>array('left' => 560.5, 'top' => 334),56=>array('left' => 824.5, 'top' => 333))}
                                                     {pc:content action="category" catid="52" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
-                                                    {if $r[catid]!=57}
                                                     <div class="modulebox box_simpleText textFloat" id="com_{$r[catid]}">
                                                         <div class="view" id="simpleText_com_{$r[catid]}" style="width: 88px; height: 24px; min-height: 0px;" data-bwidth="88" data-bheight="24">
                                                             <div class="">
@@ -641,7 +638,6 @@
                                                         </div>
                                                         <style id="com_{$r[catid]}_style">#com_{$r[catid]}.modulebox{width: 88px; height: 24px; position: absolute; left: {$positons[$r[catid]]['left']}px; top: {$positons[$r[catid]]['top']}px; z-index: 9;}#simpleText_com_{$r[catid]}{width: 88px; height: 24px; min-height: 0px;}</style>
                                                     </div>
-                                                    {/if}
                                                     {/loop}
                                                     {/pc}
                                                     <div class="modulebox box_press_button textFloat" id="com_158">
