@@ -19,7 +19,7 @@ if(domain_1=='iyongwebsite' || domain_2=="iyongweb"){
     var cssurl="//css.j-cc.cn";
     jsurl="//js.j-cc.cn";
 }
-cssurl = '/statics/yibo/css';
+cssurl = '/statics/yibo';
 jsurl = '/statics/yibo';
 weburl="//"+domain;
 require.config({
