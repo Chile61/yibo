@@ -20,7 +20,7 @@ if(domain_1=='iyongwebsite' || domain_2=="iyongweb"){
     jsurl="//js.j-cc.cn";
 }
 cssurl = '/statics/yibo/css';
-jsurl = '/statics/yibo/js';
+jsurl = '/statics/yibo';
 weburl="//"+domain;
 require.config({
     baseUrl : jsurl+"/js/lib/",
