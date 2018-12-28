@@ -21,6 +21,7 @@ if(domain_1=='iyongwebsite' || domain_2=="iyongweb" || domain_3=="iyongweb" || d
     jsurl="//js.j-cc.cn";
 }
 jsurl = '/statics/yibo/m';
+cssurl = '/statics/yibo/m';
 weburl="//"+domain;
 require.config({
     baseUrl : jsurl+"/js/lib/",

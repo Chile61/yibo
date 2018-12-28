@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*全局经过颜色*/
+body a:hover{ color: #333333}
+/*栏目主题颜色*/
+.webHeaderBg {background: #333333}
+#webHeader{background: none;}
+/*导航栏选中效果*/
+#design .webHeaderBox {background-color:#333333;}
+.itemSelected .navItemName{color: #333333;}
+.design .navbar  .itemSelected.navItem:after{color: #333333;}
+.itemSelected a{border-left:0.5rem solid #333333 !important;}
+.design .navbar .navbarList > ul > li.itemSelected > a span.navItemIcon:before{color:#333333;}
+.design .navbar .navbarList > ul > li.itemSelected > a span.iconfont:before{color:#333333;}
+/*组件栏目标题*/
+.skin_title > a.skin_t_more{color:#333333;}
+.skin_title > h4{color: #333333;}
+.skin_title > .skin_t_icon{background-color: #333333;}
+.localNavTip.icon-menuNavTip:before{color:#333333;}
+/*当前位置*/
+#localNavbar ul li.itemSelected a{border-left:5px solid #333333;color: #333333;}
+
+/*分页样式*/
+.mob_pagination .page_but{border: 1px solid #333333; color:#333333;}
+
+/*默认图片*/
+#news_img.article_img{background-color: #333333;}
+/*默认背景*/
+.iconImg{background-color: #333333;}
+#news_type{color: #333333;}
+
+/*产品页选项卡颜色*/
+.descShow .hd li.on{ background: #333333;}
+#webProductType .pIconImg{ background-color:#333333}
+
+/*轮播多图组件按钮的颜色*/
+.swiper-button-prev{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23333333'%2F%3E%3C%2Fsvg%3E");}
+.swiper-button-next{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23333333'%2F%3E%3C%2Fsvg%3E");}
+/*轮播多图组件下标颜色*/
+.swiper-pagination-bullet-active{background:#333333;}
+
+/*产品搜索图标颜色*/
+.search .searchInput .searchIcon.iyong-icons-search4{color:#333333;}
+.moduleContent .search .searchBox .searchInput .searchText{background-color:#333333;}
+.moduleContent .search .searchBox .searchInput .leftIcon{border-right-color:#333333;}
+.moduleContent .search .searchBox .searchInput .searchText1{background-color:#333333;}
+.moduleContent .search .searchBox .searchInput .searchIcon2{background-color:#333333;}
+.moduleContent .search .searchBox .searchInput .searchIcon.searchIcon2.iyong-icons-search4{color: white;}
+.moduleContent .search .searchBox .searchInput2{background: #333333;}
+
+.box_queryCode .querySearch{background-color:#333333;}
+.box_queryCode .querySearchBack{border: 1px solid #333333;color: #333333;}

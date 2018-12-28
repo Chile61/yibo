@@ -9,9 +9,9 @@
                 <div class="backtop" onclick="wapUtil.backToTop()">Top<b class="serItemIcon icon-serItemIcon"></b></div>
             </div>
             <div  id="mob_edu_con">
-                <div class="copyRight">    版权所有(C)汉荣机械设备(东莞)有限公司
+                <div class="copyRight">    {$configs['copyright']}
                 </div>
-                <div class="copyAdmin">
+                <div class="copyAdmin" style="display: none;">
                     本站使用 <a href="http://www.iyong.com" title="爱用建站">爱用建站</a> 技术开发
 
                 </div>
@@ -136,30 +136,5 @@
 <div style="position: absolute; opacity: 0.2; z-index: 499; display: none; width: 232px; height: 159px; left: 283px; top: 379px;"></div>
 </div>
 </div>
-<script  id="kimScript" type="text/javascript" src="http://kim.kenfor.com/wlt_ydllfx.js" data="wlt_account_id=1522375412821019,wlt_ln=0"></script>
-<script>
-    (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-</script>
-<script>
-    $(document).ready(function () {
-        var ua = window.navigator.userAgent.toLowerCase();
-        // if(WebModel=="view"){
-        if(ua.match(/MicroMessenger/i) == "micromessenger"){
-            dataUtil.getWxJsShareApi();
-        }
-
-    });
-</script>
 </body>
 </html>
