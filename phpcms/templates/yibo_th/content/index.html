@@ -147,7 +147,7 @@
                                                                     <div class="hd"> <a class="prev public_prev" href="javascript:void(0);"></a> <a class="next public_next" href="javascript:void(0);"></a></div>
                                                                     <div class="bd pro_form_div">
                                                                         <ul id="proList_com_120" data-boxw="1200" data-listw="300" data-boxm="0" class="picList effects1 parameter1">
-                                                                            {pc:content action="category" catid="61" num="10" siteid="$siteid" order="listorder ASC"}
+                                                                            {pc:content action="category" catid="115" num="10" siteid="$siteid" order="listorder ASC"}
                                                                             {loop $data $r}
                                                                             {pc:content action="lists" catid="$r[catid]" num="10" order="listorder ASC"}
                                                                             {loop $data $rr}
@@ -272,7 +272,7 @@
                                                             </div>
                                                             <div class="title_wrap title_type_006">
                                                                 <div class="title_wrap_inner " style="">
-                                                                    <h4 class="title_h4 mainTitleCls" style="">关于我们 </h4>
+                                                                    <h4 class="title_h4 mainTitleCls" style="">เกี่ยวกับเรา </h4>
                                                                     <span class="title_icon icon_bg"> <i class=""></i> </span>
                                                                     <span class="title_line line_bg"></span>
                                                                 </div>
@@ -294,7 +294,7 @@
                                                         </script>
                                                         <style id="com_126_style">#com_126{width: 1898px; height: 34px; position: absolute; left: -355.484px; top: 50.9883px; z-index: 9;}#picture_com_126{width: 1898px; height: 34px;}</style>
                                                     </div>
-                                                    {pc:get sql="SELECT c.thumb,cd.content,cd.company_image FROM yibo_aboutus_en c LEFT JOIN yibo_aboutus_en_data cd ON c.id = cd.id WHERE c.id = 1" cache="3600" page="$page" return="data_ext"}
+                                                    {pc:get sql="SELECT c.thumb,cd.content,cd.company_image FROM yibo_aboutus_th c LEFT JOIN yibo_aboutus_th_data cd ON c.id = cd.id WHERE c.id = 1" cache="3600" page="$page" return="data_ext"}
                                                     {loop $data_ext $key $val}
                                                     {php $aboutus_thumb = $val['thumb']}
                                                     {php $aboutus_content = str_cut(strip_tags($val['content']), 1000, '...')}
@@ -583,7 +583,7 @@
                                                             </div>
                                                             <div class="title_wrap title_type_006">
                                                                 <div class="title_wrap_inner " style="">
-                                                                    <h4 class="title_h4 mainTitleCls" style="">适用行业 </h4>
+                                                                    <h4 class="title_h4 mainTitleCls" style="">อุตสาหกรรมที่ใช้ </h4>
                                                                     <span class="title_icon icon_bg"> <i class=""></i> </span>
                                                                     <span class="title_line line_bg"></span>
                                                                 </div>
@@ -607,7 +607,7 @@
                                                     </div>
                                                     {php $positons=array(53=>array('left' => 1.5, 'top' => 130),54=>array('left' => 242.5, 'top' => 131),55=>array('left' => 493.5, 'top' => 132),56=>array('left' => 741.5, 'top' => 131))}
                                                     {php $aaa=array(53=>array('w' => 215, 'h' => 254),54=>array('w' => 213, 'h' => 254),55=>array('w' => 213, 'h' => 253),56=>array('w' => 214, 'h' => 253))}
-                                                    {pc:content action="category" catid="52" num="25" siteid="$siteid" order="listorder ASC"}
+                                                    {pc:content action="category" catid="106" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
                                                     {if $r[catid]!=57}
                                                     <div class="modulebox box_picture textFloat" id="com_{$r[catid]}_pic">
@@ -628,7 +628,7 @@
                                                     {/loop}
                                                     {/pc}
                                                     {php $positons=array(53=>array('left' => 70.5, 'top' => '334'),54=>array('left' => 324.5, 'top' => 334),55=>array('left' => 560.5, 'top' => 334),56=>array('left' => 824.5, 'top' => 333))}
-                                                    {pc:content action="category" catid="52" num="25" siteid="$siteid" order="listorder ASC"}
+                                                    {pc:content action="category" catid="106" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
                                                     {if $r[catid]!=57}
                                                     <div class="modulebox box_simpleText textFloat" id="com_{$r[catid]}">
