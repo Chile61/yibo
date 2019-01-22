@@ -3,8 +3,8 @@
         <div class="view" id="simpleText_com_170" style="width: 302px; height: 112px; min-height: 0px;" data-bwidth="302" data-bheight="112">
             <div class="">
                 <div>
-                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">{$configs['company_name_en']}</span></p>
-                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">Address：{$configs['address_en']}</span></p>
+                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">{$configs['company_name_th']}</span></p>
+                    <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">Address：{$configs['address_th']}</span></p>
                     <p><span style="color: rgb(242, 242, 242); font-family: 微软雅黑; font-size: 12px;">Telephone：{$configs['phone']}</span></p>
                 </div>
             </div>
@@ -119,18 +119,18 @@
                     <div class="menuStyle clearfix">
                         <div class="box_web_main">
                             <div class="sectionheight copyNavStyle1">
-                                <div class="copyNav_li"><a href="javascript:void(0)" >About us</a>
+                                <div class="copyNav_li"><a href="javascript:void(0)" >เกี่ยวกับเรา</a>
                                     <ul>
-                                        {pc:content action="category" catid="76" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="102" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
                                         {/pc}
                                     </ul>
                                 </div>
-                                <div class="copyNav_li"><a href="javascript:void(0)" >Product</a>
+                                <div class="copyNav_li"><a href="javascript:void(0)" >แสดงสินค้า</a>
                                     <ul>
-                                        {pc:content action="category" catid="80" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="115" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
@@ -139,18 +139,18 @@
                                         <li><a href="javascript:void(0)" >&nbsp;</a></li>
                                     </ul>
                                 </div>
-                                <div class="copyNav_li"><a href="javascript:void(0)" >Technique Center</a>
+                                <div class="copyNav_li"><a href="javascript:void(0)" >การสนับสนุนทางเทคนิค</a>
                                     <ul>
-                                        {pc:content action="category" catid="86" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="112" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
                                         {/loop}
                                         {/pc}
                                     </ul>
                                 </div>
-                                <div class="copyNav_li"><a href="javascript:void(0)" >Contact us</a>
+                                <div class="copyNav_li"><a href="javascript:void(0)" >ติดต่อเรา</a>
                                     <ul>
-                                        {pc:content action="category" catid="99" num="25" siteid="$siteid" order="listorder ASC"}
+                                        {pc:content action="category" catid="126" num="25" siteid="$siteid" order="listorder ASC"}
                                         {loop $data $r}
                                         {if $r[catid]!=73}
                                         <li><a href="{$r[url]}" >{$r[catname]}</a></li>
