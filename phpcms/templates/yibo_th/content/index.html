@@ -605,11 +605,10 @@
                                                         </script>
                                                         <style id="com_143_style">#com_143{width: 1898px; height: 34px; position: absolute; left: -359.484px; top: 52.9922px; z-index: 9;}#picture_com_143{width: 1898px; height: 34px;}</style>
                                                     </div>
-                                                    {php $positons=array(107=>array('left' => 1.5, 'top' => 130),108=>array('left' => 242.5, 'top' => 131),109=>array('left' => 493.5, 'top' => 132),110=>array('left' => 741.5, 'top' => 131))}
-                                                    {php $aaa=array(107=>array('w' => 215, 'h' => 254),108=>array('w' => 213, 'h' => 254),109=>array('w' => 213, 'h' => 253),110=>array('w' => 214, 'h' => 253))}
+                                                    {php $positons=array(107=>array('left' => 1.5, 'top' => 130),108=>array('left' => 242.5, 'top' => 131),109=>array('left' => 493.5, 'top' => 132),110=>array('left' => 741.5, 'top' => 131),111=>array('left' => 984.5, 'top' => 131))}
+                                                    {php $aaa=array(107=>array('w' => 215, 'h' => 254),108=>array('w' => 213, 'h' => 254),109=>array('w' => 213, 'h' => 253),110=>array('w' => 214, 'h' => 253),111=>array('w' => 213, 'h' => 253))}
                                                     {pc:content action="category" catid="106" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
-                                                    {if $r[catid]!=111}
                                                     <div class="modulebox box_picture textFloat" id="com_{$r[catid]}_pic">
                                                         <div class="view" id="picture_com_{$r[catid]}" style="width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px;" data-bwidth="{$aaa[$r[catid]]['w']}" data-bheight="{$aaa[$r[catid]]['h']}">
                                                             <div class="has_wow animated fadeInUp box_wow" style="width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px; visibility: hidden; animation-duration: 1s; animation-delay: 0s; animation-name: none;" data-wow-duration="1.0s" data-wow-delay="0.0s">
@@ -624,24 +623,21 @@
                                                         </script>
                                                         <style id="com_{$r[catid]}_style">#com_{$r[catid]}_pic{width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px; position: absolute; left: {$positons[$r[catid]]['left']}px; top: {$positons[$r[catid]]['top']}px; z-index: 9;}#picture_com_{$r[catid]}{width: {$aaa[$r[catid]]['w']}px; height: {$aaa[$r[catid]]['h']}px;}</style>
                                                     </div>
-                                                    {/if}
                                                     {/loop}
                                                     {/pc}
-                                                    {php $positons=array(107=>array('left' => 70.5, 'top' => '334'),108=>array('left' => 324.5, 'top' => 334),109=>array('left' => 560.5, 'top' => 334),110=>array('left' => 824.5, 'top' => 333))}
+                                                    {php $positons=array(107=>array('left' => 50.5, 'top' => '334'),108=>array('left' => 324.5, 'top' => 334),109=>array('left' => 560.5, 'top' => 334),110=>array('left' => 770.5, 'top' => 333),111=>array('left' => 1076.5, 'top' => 332))}
                                                     {pc:content action="category" catid="106" num="25" siteid="$siteid" order="listorder ASC"}
                                                     {loop $data $r}
-                                                    {if $r[catid]!=111}
                                                     <div class="modulebox box_simpleText textFloat" id="com_{$r[catid]}">
-                                                        <div class="view" id="simpleText_com_{$r[catid]}" style="width: 88px; height: 24px; min-height: 0px;" data-bwidth="88" data-bheight="24">
+                                                        <div class="view" id="simpleText_com_{$r[catid]}" style="width: 168px; height: 24px; min-height: 0px;" data-bwidth="168" data-bheight="24">
                                                             <div class="">
                                                                 <div>
                                                                     <p><b><span style="font-size: 14px; font-family: 微软雅黑; color: rgb(255, 255, 255);">{$r[catname]}</span></b></p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <style id="com_{$r[catid]}_style">#com_{$r[catid]}.modulebox{width: 88px; height: 24px; position: absolute; left: {$positons[$r[catid]]['left']}px; top: {$positons[$r[catid]]['top']}px; z-index: 9;}#simpleText_com_{$r[catid]}{width: 88px; height: 24px; min-height: 0px;}</style>
+                                                        <style id="com_{$r[catid]}_style">#com_{$r[catid]}.modulebox{width: 168px; height: 24px; position: absolute; left: {$positons[$r[catid]]['left']}px; top: {$positons[$r[catid]]['top']}px; z-index: 9;}#simpleText_com_{$r[catid]}{width: 88px; height: 24px; min-height: 0px;}</style>
                                                     </div>
-                                                    {/if}
                                                     {/loop}
                                                     {/pc}
                                                     <div class="modulebox box_press_button textFloat" id="com_158">
