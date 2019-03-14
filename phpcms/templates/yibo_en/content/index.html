@@ -37,14 +37,14 @@
                                 <div class="tempWrap" style="overflow:hidden; position:relative; width:1903px">
                                     <ul style="width: 9515px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1903px;">
                                         {php $index=0}
-                                        {pc:content action="lists" catid="16" num="25" siteid="$siteid" order="listorder ASC" moreinfo="1"}
+                                        {pc:content action="lists" catid="130" num="25" siteid="$siteid" order="listorder ASC" moreinfo="1"}
                                         {loop $data $val}
                                         <li style="height: 661px; width: 1903px; float: left;"{if $index==0} class="clone"{/if}> <a href="{$val[banner_url]}" target="_blank" style="background-image:url('{$val[thumb]}');" class="banner_img action_jump"></a> </li>
                                         {php $index++}
                                         {/loop}
                                         {/pc}
                                         {php $index=0}
-                                        {pc:content action="lists" catid="16" num="2" siteid="$siteid" order="listorder ASC" moreinfo="1"}
+                                        {pc:content action="lists" catid="130" num="2" siteid="$siteid" order="listorder ASC" moreinfo="1"}
                                         {loop $data $val}
                                         <li style="height: 661px; width: 1903px; float: left;"{if $index==1} class="clone"{/if}> <a href="{$val[banner_url]}" target="_blank" style="background-image:url('{$val[thumb]}');" class="banner_img action_jump"></a> </li>
                                         {php $index++}
@@ -56,7 +56,7 @@
                         </div>
                         <div id="banners_com_108" style="display:none">
                             <ul>
-                                {pc:content action="lists" catid="16" num="25" siteid="$siteid" order="listorder ASC" moreinfo="1"}
+                                {pc:content action="lists" catid="130" num="25" siteid="$siteid" order="listorder ASC" moreinfo="1"}
                                 {loop $data $val}
                                 <li style="height: 661px; width: 1903px;"> <a href="{$val[banner_url]}" target="_blank" style="background-image:url('{$val[thumb]}');" class="banner_img action_jump"></a> </li>
                                 {/loop}
